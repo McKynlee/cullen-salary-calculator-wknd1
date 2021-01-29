@@ -9,36 +9,44 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Calculate Employee Salary</h1>
-    <p>Compliments of jQuery</p>
+    <div class="wrapper">
+      <header>
+        <h1>Calculate Employee Salary</h1>
+        <p>Compliments of jQuery</p>
+      </header>
 
-    <form>
-      <!--MUST USE prevent().default in $-->
-      <h2 id="formTitle">Input Employee Information:</h2>
-      <label
-        >First Name:
-        <input type="text" id="nameInput" />
-      </label>
+      <form>
+        <!--MUST USE prevent().default in $-->
+        <h2 id="formTitle">Input Employee Information:</h2>
+        <label class="nameInput"
+          >First Name:
+          <input type="text" id="nameInput" />
+        </label>
 
-      <label
-        >Last Name:
-        <input type="text" id="lastNameInput" />
-      </label>
+        <label class="lastNameInput"
+          >Last Name:
+          <input type="text" id="lastNameInput" />
+        </label>
 
-      <label
-        >ID Number:
-        <input type="number" id="idNumInput" />
-      </label>
+        <label class="idNumInput"
+          >ID Number:
+          <input type="number" id="idNumInput" />
+        </label>
 
-      <label
-        >Job Title:
-        <input type="text" id="jobTitleInput" />
-      </label>
+        <label class="jobTitleInput"
+          >Job Title:
+          <input type="text" id="jobTitleInput" />
+        </label>
 
-      <label
-        >Annual Salary $:
-        <input type="number" id="salaryInput" />
-      </label>
-    </form>
+        <label class="salaryInput"
+          >Annual Salary $:
+          <input type="number" id="salaryInput" />
+        </label>
+      </form>
+
+      <div class="calculate">
+        <p>Calculate Salaries Here:</p>
+      </div>
+    </div>
   </body>
 </html>
