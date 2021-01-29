@@ -3,8 +3,20 @@ body {
   color: white;
   margin: 0px;
   text-align: center;
+  display: grid;
 }
 
 h1 {
   margin: 30px 30px 5px 30px;
+}
+
+#formTitle {
+  text-decoration: underline;
+  text-decoration-color: #795663;
+  text-decoration-thickness: 4px;
+}
+
+input {
+  border: 2px solid #795663;
+  border-radius: 5px;
 }

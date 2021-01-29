@@ -10,7 +10,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 ## TODO
 
--[] Create HTML/CSS/jQuery/JS files and link in HTML
+-[x] Create HTML/CSS/jQuery/JS files and link in HTML
 
 -[] Input form
 ----[] employee first name - text
