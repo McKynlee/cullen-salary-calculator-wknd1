@@ -13,6 +13,7 @@
     <p>Compliments of jQuery</p>
 
     <form>
+      <!--MUST USE prevent().default in $-->
       <h2 id="formTitle">Input Employee Information:</h2>
       <label
         >First Name:
@@ -27,6 +28,16 @@
       <label
         >ID Number:
         <input type="number" id="idNumInput" />
+      </label>
+
+      <label
+        >Job Title:
+        <input type="text" id="jobTitleInput" />
+      </label>
+
+      <label
+        >Annual Salary $:
+        <input type="number" id="salaryInput" />
       </label>
     </form>
   </body>
