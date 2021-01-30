@@ -51,7 +51,7 @@ header {
 form {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(9, auto);
+  grid-template-rows: repeat(15, auto);
   grid-gap: 5px;
   justify-items: end;
 }
@@ -97,13 +97,34 @@ input {
   grid-row: 7;
 }
 
+#tableContainer {
+  grid-area: tableContainer;
+  grid-column: 2 / 9;
+  grid-row: 9 / 12;
+  margin: 20px auto;
+  padding: 10px 50px;
+}
+
+table,
+th,
+td {
+  border: 2px solid #645244;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  font-weight: bold;
+  background-color: #795663;
+}
+
 .calculate {
   grid-area: calcContainer;
   border: 2px solid #75bba7;
   border-radius: 5px;
   /* width: 50%; */
   grid-column: 2 / 9;
-  grid-row: 9 / 12;
+  grid-row: 12 / 15;
   width: fit-content;
   margin: 20px auto;
   padding: 10px 50px;

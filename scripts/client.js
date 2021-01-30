@@ -26,8 +26,8 @@ function addItem(event) {
     lastName: $('#lastNameInput').val(),
     idNumber: $('#idNumInput').val(),
     jobTitle: $('#jobTitleInput').val(),
-    annualSalary: $('#salaryInput').val(),
-    costToEmploy: totalMonthlyCost,
+    annualSalary: Number($('#salaryInput').val()),
+    costToEmploy: Number(totalMonthlyCost),
   };
 
   //Push object into array
@@ -39,10 +39,36 @@ function addItem(event) {
 
   console.log(employees);
 
-  displayEmployees();
+  displayEmployees(employees);
+  displayMonthlyCost(employees);
 }
 
-function displayEmployees() {
+function displayEmployees(empInfo) {
   //Append input values to table on DOM
-  let;
+  let table = $('#tableBody');
+
+  table.empty();
+
+  for (let item of empInfo) {
+    table.append(`
+  <tr>
+    <td>${item.name}</td>
+    <td>${item.lastName}</td>
+    <td>${item.idNumber}</td>
+    <td>${item.annualSalary}</td>
+  </tr>
+`);
+  }
 }
+
+// function displayMonthlyCost(employeeInfo) {
+//   //Calculate monthly costs on DOM
+//   let totalCost = $('#totalMonthlyCost');
+//   totalCost.empty();
+
+//   for (let cost of employeeInfo) {
+//     totalCost.append(`
+// ${cost.costToEmploy}
+// `);
+//   }
+// }
