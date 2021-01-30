@@ -37,6 +37,13 @@ function addItem(event) {
 
   displayEmployees(employees);
   displayMonthlyCost(employees);
+
+  //Clear input boxes upon submit
+  $('#nameInput').val('');
+  $('#lastNameInput').val('');
+  $('#idNumInput').val('');
+  $('#jobTitleInput').val('');
+  $('#salaryInput').val('');
 }
 
 function displayEmployees(empInfo) {
