@@ -22,9 +22,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 -[x] Create a wireframe
 
 -[] Submit button
-----[] Collect input data (object)
-----[] Store input data
-----[] Calculate monthly costs
+----[x] Collect input data (object)
+----[x] Store input data
+----[x] Calculate monthly costs
 ----------[] If total monthly cost > $20k, add red bg color to ttl mth cost
 ----[] Append info to DOM
 ----[] Clear input fields
@@ -37,8 +37,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 -[] README
 -[] Upload a wireframe
 
-**Stretch**
--[] Styling
+**Stretch** -[x] Styling
 -[] Delete button stretch listed above
 
 #645244
@@ -46,3 +45,13 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 #6C809A
 #75BBA7
 #7AE7C7
+
+https://guides.github.com/features/mastering-markdown/
+
+https://github.com/PrimeAcademy/cullen-week7-review-app/blob/master/scripts/app.js
+
+https://stackoverflow.com/questions/56184959/css-grid-layout-for-a-form
+
+https://www.w3schools.com/html/html_tables.asp
+
+https://mastery.games/post/grid-for-responsive-layout/

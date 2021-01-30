@@ -44,4 +44,5 @@ function addItem(event) {
 
 function displayEmployees() {
   //Append input values to table on DOM
+  let;
 }
