@@ -33,10 +33,6 @@ function addItem(event) {
   //Push object into array
   employees.push(employeeData);
 
-  if (totalMonthlyCost > 20000) {
-    // make bg color of Monthly Cost red
-  }
-
   console.log(employees);
 
   displayEmployees(employees);
@@ -70,6 +66,11 @@ function displayMonthlyCost(employeeInfo) {
 
   for (let cost of employeeInfo) {
     totalCost += Number(cost.costToEmploy);
+    if (totalCost > 20000) {
+      $('#mthCost').css('background-color', 'red');
+    } else {
+      $('#mthCost').css('background-color', '#6c809a');
+    }
   }
 
   totalCostOnDOM.append(totalCost.toFixed(2));
@@ -79,5 +80,5 @@ function displayMonthlyCost(employeeInfo) {
 //use id number as unique id
 // if(employeeList[i].IDNum === Number(this.value)){
 //   employeeList.splice(i, 1);
-//   i + empl
+//   i = employeeList.length;
 // }
