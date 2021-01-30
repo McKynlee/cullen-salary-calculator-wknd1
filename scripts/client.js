@@ -61,14 +61,15 @@ function displayEmployees(empInfo) {
   }
 }
 
-// function displayMonthlyCost(employeeInfo) {
-//   //Calculate monthly costs on DOM
-//   let totalCost = $('#totalMonthlyCost');
-//   totalCost.empty();
+function displayMonthlyCost(employeeInfo) {
+  //Calculate monthly costs on DOM
+  let totalCost = $('#totalMonthlyCost');
 
-//   for (let cost of employeeInfo) {
-//     totalCost.append(`
-// ${cost.costToEmploy}
-// `);
-//   }
-// }
+  totalCost.empty();
+
+  for (let cost of employeeInfo) {
+    totalCost.append(`
+${cost.costToEmploy}
+`);
+  }
+}
