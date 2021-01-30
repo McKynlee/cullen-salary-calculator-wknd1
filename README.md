@@ -21,14 +21,14 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 -[x] Create a wireframe
 
--[] Submit button
+-[x] Submit button
 ----[x] Collect input data (object)
 ----[x] Store input data
 ----[x] Calculate monthly costs
-----------[] Limit to two decimals
-----------[] If total monthly cost > $20k, add red bg color to ttl mth cost
-----[] Append info to DOM
-----[] Clear input fields
+----------[x] Limit to two decimals
+----------[x] If total monthly cost > $20k, add red bg color to ttl mth cost
+----[x] Append info to DOM
+----[x] Clear input fields
 
 -[] Delete Button
 ---[] Remove that emp's salary from the reported total

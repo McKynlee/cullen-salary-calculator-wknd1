@@ -10,6 +10,7 @@ function onReady() {
 
   //when 'Submit!' is clicked, store input data in array
   $(document).on('click', '#addItemBtn', addItem);
+  $(document).on('click', '#deleteBtn', deleteMe);
 }
 
 function addItem(event) {
@@ -59,6 +60,9 @@ function displayEmployees(empInfo) {
     <td>${item.lastName}</td>
     <td>${item.idNumber}</td>
     <td>${item.annualSalary}</td>
+    <td id="deleteBtn">
+      <button>Delete</button>
+    </td>
   </tr>
 `);
   }
@@ -89,3 +93,13 @@ function displayMonthlyCost(employeeInfo) {
 //   employeeList.splice(i, 1);
 //   i = employeeList.length;
 // }
+
+function deleteMe() {
+  let thisThing = $(this);
+
+  //Testing delete button selection:
+  console.log('What is this?', thisThing);
+
+  //To remove entire list item element access its parent:
+  $(this).parent().remove();
+}
