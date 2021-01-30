@@ -13,13 +13,13 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 -[x] Create HTML/CSS/jQuery/JS files and link in HTML
 
 -[] Input form
-----[] employee first name - text
-----[] empl last name - text
-----[] ID number - number
-----[] job title - text
-----[] annual salary - number
+----[x] employee first name - text
+----[x] empl last name - text
+----[x] ID number - number
+----[x] job title - text
+----[x] annual salary - number
 
--[] Create a wireframe
+-[x] Create a wireframe
 
 -[] Submit button
 ----[] Collect input data (object)
@@ -40,3 +40,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 **Stretch**
 -[] Styling
 -[] Delete button stretch listed above
+
+#645244
+#795663
+#6C809A
+#75BBA7
+#7AE7C7

@@ -15,34 +15,41 @@
         <p>Compliments of jQuery</p>
       </header>
 
-      <form>
-        <!--MUST USE prevent().default in $-->
+      <div class="formContainer">
         <h2 id="formTitle">Input Employee Information:</h2>
-        <label class="nameInput"
-          >First Name:
-          <input type="text" id="nameInput" />
-        </label>
 
-        <label class="lastNameInput"
-          >Last Name:
-          <input type="text" id="lastNameInput" />
-        </label>
+        <form>
+          <!--MUST USE event.preventDefault() in $-->
+          <!-- <div class="nameInput"> -->
+          <label class="nameInput"
+            >First Name:
+            <input type="text" placeholder="First Name" id="nameInput" />
+          </label>
+          <!-- </div> -->
 
-        <label class="idNumInput"
-          >ID Number:
-          <input type="number" id="idNumInput" />
-        </label>
+          <label class="lastNameInput"
+            >Last Name:
+            <input type="text" placeholder="Last Name" id="lastNameInput" />
+          </label>
 
-        <label class="jobTitleInput"
-          >Job Title:
-          <input type="text" id="jobTitleInput" />
-        </label>
+          <label class="idNumInput"
+            >ID Number:
+            <input type="number" placeholder="ID Number" id="idNumInput" />
+          </label>
 
-        <label class="salaryInput"
-          >Annual Salary $:
-          <input type="number" id="salaryInput" />
-        </label>
-      </form>
+          <label class="jobTitleInput"
+            >Job Title:
+            <input type="text" placeholder="Job Title" id="jobTitleInput" />
+          </label>
+
+          <label class="salaryInput"
+            >Annual Salary $:
+            <input type="number" placeholder="Annual Salary" id="salaryInput" />
+          </label>
+
+          <input type="submit" value="Submit!" id="addItemBtn" />
+        </form>
+      </div>
 
       <div class="calculate">
         <p>Calculate Salaries Here:</p>
