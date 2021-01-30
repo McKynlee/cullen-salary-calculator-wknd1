@@ -63,13 +63,14 @@ function displayEmployees(empInfo) {
 
 function displayMonthlyCost(employeeInfo) {
   //Calculate monthly costs on DOM
-  let totalCost = $('#totalMonthlyCost');
+  let totalCostOnDOM = $('#totalMonthlyCost');
+  let totalCost = 0;
 
-  totalCost.empty();
+  totalCostOnDOM.empty();
 
   for (let cost of employeeInfo) {
-    totalCost.append(`
-${cost.costToEmploy}
-`);
+    totalCost += Number(cost.costToEmploy);
   }
+
+  totalCostOnDOM.append(totalCost);
 }
