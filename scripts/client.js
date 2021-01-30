@@ -19,6 +19,7 @@ function addItem(event) {
   //test that addItem runs
   console.log('in addItem');
 
+  let totalMonthlyCost = $('#salaryInput').val() / 12;
   //Create object to hold input data
   let employeeData = {
     name: $('#nameInput').val(),
@@ -26,11 +27,19 @@ function addItem(event) {
     idNumber: $('#idNumInput').val(),
     jobTitle: $('#jobTitleInput').val(),
     annualSalary: $('#salaryInput').val(),
-    costToEmploy: 'costToEmploy TBD',
+    costToEmploy: totalMonthlyCost,
   };
 
   //Push object into array
   employees.push(employeeData);
 
+  if (totalMonthlyCost > 20000) {
+    // make bg color of Monthly Cost red
+  }
+
   console.log(employees);
+
+  displayEmployees();
 }
+
+function displayEmployees() {}
