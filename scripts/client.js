@@ -72,5 +72,12 @@ function displayMonthlyCost(employeeInfo) {
     totalCost += Number(cost.costToEmploy);
   }
 
-  totalCostOnDOM.append(totalCost);
+  totalCostOnDOM.append(totalCost.toFixed(2));
 }
+
+//delete
+//use id number as unique id
+// if(employeeList[i].IDNum === Number(this.value)){
+//   employeeList.splice(i, 1);
+//   i + empl
+// }

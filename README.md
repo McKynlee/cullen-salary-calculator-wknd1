@@ -25,6 +25,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 ----[x] Collect input data (object)
 ----[x] Store input data
 ----[x] Calculate monthly costs
+----------[] Limit to two decimals
 ----------[] If total monthly cost > $20k, add red bg color to ttl mth cost
 ----[] Append info to DOM
 ----[] Clear input fields
