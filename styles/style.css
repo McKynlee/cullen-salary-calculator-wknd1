@@ -17,6 +17,7 @@ body {
     'idNumInput'
     'jobTitleInput'
     'salaryInput'
+    'addItemBtn'
     'calcContainer'; */
 }
 
@@ -32,23 +33,23 @@ header {
   border-radius: 10px;
   grid-column: 1 / 10;
   grid-row: 4 / 8;
-  padding: 30px;
+  padding: 10px 30px;
   width: fit-content;
   margin: 20px auto;
 }
 
 #formTitle {
-  /* grid-area: formTitle;
-  grid-column: 1 / 10;
-  grid-row: 4 / 5; */
   text-decoration: underline;
   text-decoration-color: #795663;
   text-decoration-thickness: 4px;
 }
 
 form {
-  /* grid-column: 1 / 10;
-  grid-row: 6 / 8; */
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, auto);
+  grid-gap: 5px;
+  justify-items: end;
 }
 
 input {
@@ -86,14 +87,25 @@ input {
   grid-row: 6;
 }
 
+#addItemBtn {
+  grid-area: addItemBtn;
+  grid-column: 9 / 10;
+  grid-row: 7;
+}
+
 .calculate {
   grid-area: calcContainer;
   border: 2px solid #75bba7;
   border-radius: 5px;
-  width: 50%;
+  /* width: 50%; */
   grid-column: 2 / 9;
   grid-row: 9 / 12;
   width: fit-content;
   margin: 20px auto;
-  padding: 50px;
+  padding: 10px 50px;
+}
+
+p {
+  align-self: start;
+  justify-self: start;
 }
