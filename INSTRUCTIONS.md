@@ -73,13 +73,14 @@ McK NOTES to Self:
 
 -[x] Delete Button
 ---[x] Remove that emp's info from the DOM
----{stretch}: Update total spend on salaries to remove deleted emp's sal
---- use `.text()` as getter or jQuery's `.data()` function.
 
--[] README -[x] Upload a wireframe/screenshot
+-[x] README -[x] Upload a wireframe/screenshot
 
 **Stretch** -[x] Styling
--[] Delete button stretch listed above
+-[] Update total monthly costs to remove deleted emp's sal
+--- use `.text()` as getter or jQuery's `.data()` function.
+
+## Color Palette
 
 #645244
 #795663
