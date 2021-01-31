@@ -94,6 +94,12 @@ function displayMonthlyCost(employeeInfo) {
 //   i = employeeList.length;
 // }
 
+// const indexWeWant = employeeList.findIndex((obj) => {
+//   console.log(obj.employeeID, searchForMe.employeeID);
+//   obj.employeeID == searchForMe.employeeID;
+// });
+// indedWeWant returns -1 but the log says they are the same.
+
 function deleteMe() {
   let thisThing = $(this);
 

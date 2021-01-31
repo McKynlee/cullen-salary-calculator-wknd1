@@ -44,3 +44,45 @@ Above, we introduced the concept of levels of difficulty. "Mode" is how we will 
 ## Assignment Submission
 
 Check in your repo, then turn in your work via the Prime Academy Assignment Application at [http://primeacademy.io](http://primeacademy.io), as usual and don't hesitate to hit up the Slack channel as needed!
+
+---
+
+McK NOTES to Self:
+
+## TODO
+
+-[x] Create HTML/CSS/jQuery/JS files and link in HTML
+
+-[x] Input form
+----[x] employee first name - text
+----[x] empl last name - text
+----[x] ID number - number
+----[x] job title - text
+----[x] annual salary - number
+
+-[x] Create a wireframe
+
+-[x] Submit button
+----[x] Collect input data (object)
+----[x] Store input data
+----[x] Calculate monthly costs
+----------[x] Limit to two decimals
+----------[x] If total monthly cost > $20k, add red bg color to ttl mth cost
+----[x] Append info to DOM
+----[x] Clear input fields
+
+-[x] Delete Button
+---[x] Remove that emp's info from the DOM
+---{stretch}: Update total spend on salaries to remove deleted emp's sal
+--- use `.text()` as getter or jQuery's `.data()` function.
+
+-[] README -[x] Upload a wireframe/screenshot
+
+**Stretch** -[x] Styling
+-[] Delete button stretch listed above
+
+#645244
+#795663
+#6C809A
+#75BBA7
+#7AE7C7

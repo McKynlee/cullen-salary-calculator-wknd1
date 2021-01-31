@@ -16,42 +16,23 @@ At the bottom of the page, the total monthly costs for all employees that have b
 
 ![DOM Display](/images/wknd1CalcSalaryRED.jpg)
 
+## Installation
+
+1. Open the index.html in your web browser.
+
 ## Usage
 
-## TODO
+1. df
+1. df
 
--[x] Create HTML/CSS/jQuery/JS files and link in HTML
+## Built With
 
--[x] Input form
-----[x] employee first name - text
-----[x] empl last name - text
-----[x] ID number - number
-----[x] job title - text
-----[x] annual salary - number
+- VisualStudio Code
+- HTML
+- CSS
+- JavaScript
+- jQuery
 
--[x] Create a wireframe
+## Acknowledgement
 
--[x] Submit button
-----[x] Collect input data (object)
-----[x] Store input data
-----[x] Calculate monthly costs
-----------[x] Limit to two decimals
-----------[x] If total monthly cost > $20k, add red bg color to ttl mth cost
-----[x] Append info to DOM
-----[x] Clear input fields
-
--[x] Delete Button
----[x] Remove that emp's info from the DOM
----{stretch}: Update total spend on salaries to remove deleted emp's sal
---- use `.text()` as getter or jQuery's `.data()` function.
-
--[] README -[x] Upload a wireframe/screenshot
-
-**Stretch** -[x] Styling
--[] Delete button stretch listed above
-
-#645244
-#795663
-#6C809A
-#75BBA7
-#7AE7C7
+Thanks to [Prime Digital Academy](https://www.primeacademy.io/) who equipped and helped me to make this application a reality.
