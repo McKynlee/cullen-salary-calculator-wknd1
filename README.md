@@ -18,12 +18,21 @@ At the bottom of the page, the total monthly costs for all employees that have b
 
 ## Installation
 
-1. Open the index.html in your web browser.
+1. Open the index.html file in your web browser.
 
 ## Usage
 
-1. df
-1. df
+1. Gather data that you would like to input for employees, the comprehensive list of options is as follows:
+1. Employee First Name (string value)
+1. Employee Last Name (string value)
+1. Employee ID Number (number value)
+1. Employee Job Title (string value)
+1. Employee Annual Salary (number value)
+1. Click on the words (label) preceding any given input box, or click directly into the box.
+1. Type the corresponding input data into the box. Fill out all boxes for any given employee BEFORE clicking 'Submit!'.
+1. Upon filling out all boxes with data for a given employee, click the 'Submit!' button. The employee information will show up in the table below the input boxes and the input boxes will be cleared and ready for you to repeat the above steps with the information of another employee.
+1. The Total Monthly Cost will be calculated to include ALL employees that have been submitted.
+1. If you would like to remove an employee from the table, click the 'Delete' button next to their name, and their row will be removed from the table. Their monthly cost information, however, is still included in the Total Monthly Costs. This will be a new feature included in my next upgrade to this app.
 
 ## Built With
 
