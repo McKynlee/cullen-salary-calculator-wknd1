@@ -60,7 +60,7 @@ function displayEmployees(empInfo) {
     <td>${item.lastName}</td>
     <td>${item.idNumber}</td>
     <td>${item.annualSalary}</td>
-    <td id="deleteBtn">
+    <td id="deleteBtn" data-value="${item.costToEmploy}">
       <button>Delete</button>
     </td>
   </tr>
@@ -87,19 +87,6 @@ function displayMonthlyCost(employeeInfo) {
   totalCostOnDOM.append(totalCost.toFixed(2));
 }
 
-//delete
-//use id number as unique id
-// if(employeeList[i].IDNum === Number(this.value)){
-//   employeeList.splice(i, 1);
-//   i = employeeList.length;
-// }
-
-// const indexWeWant = employeeList.findIndex((obj) => {
-//   console.log(obj.employeeID, searchForMe.employeeID);
-//   obj.employeeID == searchForMe.employeeID;
-// });
-// indedWeWant returns -1 but the log says they are the same.
-
 function deleteMe() {
   let thisThing = $(this);
 
@@ -108,4 +95,12 @@ function deleteMe() {
 
   //To remove entire list item element access its parent:
   $(this).parent().remove();
+  
+  // Code to be worked for future upgrade to remove deleted employee costs 
+  // from total monthly cost displayed:
+  
+  // let costToRemove = Number($(this).data('value'));
+  // console.log('costToRemove =', costToRemove);
+  // Have correctly targeted the deleted employee's month cost data, 
+  //but haven't figured out how to successfully remove it from the total cost- yet.
 }
