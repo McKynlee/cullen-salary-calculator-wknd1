@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(9, auto);
-  /* grid-template-areas:
+  grid-template-areas:
     'header'
     'formTitle'
     'nameInput'
@@ -18,7 +18,7 @@ body {
     'jobTitleInput'
     'salaryInput'
     'addItemBtn'
-    'calcContainer'; */
+    'calcContainer';
 }
 
 header {
